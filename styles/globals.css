@@ -1,12 +1,13 @@
 @import './vars.css';
+@import 'aos/dist/aos.css';
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, 'Daydream', Helvetica Neue, sans-serif;
-  background-color: var(--principal-bg-color);
-  color: var(--principal-text-color);
+  font-family: -apple-system, 'Sedgwick', Helvetica Neue, sans-serif !important;
+  background-color: var(--principal-bg-color) !important;
+  color: var(--principal-text-color) !important;
 }
 
 a {
@@ -18,7 +19,18 @@ a {
   box-sizing: border-box;
 }
 
+/* AnimXYZ */
+
+.item-group {
+  --xyz-translate-x: -100vw;
+}
+
 @font-face {
-  font-family: 'Daydream';
-  src: url(/fonts/Daydream.ttf);
+  font-family: 'Rampart';
+  src: url(/fonts/RampartOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Sedgwick';
+  src: url(/fonts/SedgwickAveDisplay-Regular.ttf);
 }
