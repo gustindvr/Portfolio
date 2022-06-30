@@ -3,6 +3,7 @@ import Head from 'next/head';
 
 import HomePage from '../src/components/organisms/HomePage';
 import { Container, Flex } from '@chakra-ui/react';
+import About from '../src/components/organisms/About';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
           alignItems="center"
         >
           <HomePage />
+          <About />
         </Flex>
       </Container>
     </>
